@@ -35,7 +35,7 @@ export const HeroesScreen = ({ history }) => {
       <div className="container mb-5" >
         <div className="row justify-content-start">
           <div className="col-sm-6 col-md-5 col-lg-6">
-            <img style={{'width': '400px', 'height': '600px'}} src={`../assets/heroes/${heroeId}.jpg`} alt={superhero} />
+            <img style={{'width': '400px', 'height': '600px'}} src={`./assets/heroes/${heroeId}.jpg`} alt={superhero} />
           </div>
           <div className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
             <div className="card-body">
